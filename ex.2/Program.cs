@@ -5,6 +5,10 @@ Console.WriteLine ("Узнаем твой индекс массы тела");
 
 //узнаем данный для формулы
 Console.Write ("Введи твой вес ");
-int weight = int.Parse 
+double weight = double.Parse (Console.ReadLine());
 Console.Write ("А теперь рост ");
-string weight = int Console.ReadLine();
+int height = int.Parse (Console.ReadLine());
+
+double result = weight/(height * height);
+
+Console.WriteLine ("{0:F4}", result);
