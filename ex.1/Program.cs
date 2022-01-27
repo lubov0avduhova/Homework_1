@@ -24,4 +24,4 @@ Console.WriteLine ("Твое имя:{0}" + " Фамилия: {1}" + " Возра
                 name, lastname, age, height, weight);
 // в) используя вывод со знаком $
 Console.WriteLine ("А теперь результаты вывод со знаком $");
-Console.Write ($"Твое имя:{name} Фамилия: {lastname} Возраст: {age} Рост: {height} Вес: {weight}");
+Console.Write ($"Твое имя: {name} Фамилия: {lastname} Возраст: {age} Рост: {height} Вес: {weight}");
